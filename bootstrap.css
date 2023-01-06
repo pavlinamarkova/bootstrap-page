@@ -548,3 +548,11 @@ label.form-label {
 
    }
    }
+  @media (min-width: 800px) {
+
+    .home-text{  
+ 
+       margin: 0 auto;
+   
+   }
+   }
