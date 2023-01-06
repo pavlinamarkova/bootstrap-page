@@ -165,9 +165,7 @@
     line-height: 1.7rem;
 }
 
-.about-us {
-    max-height: 100vh;
-}
+
 
 .about-us-span {
     color:brown;
@@ -550,8 +548,3 @@ label.form-label {
 
    }
    }
-@media (max-width: 900px) and (min-width: 500px) {
-    #whatwedo{
-        margin-top: 100px!important;
-    }
-}
