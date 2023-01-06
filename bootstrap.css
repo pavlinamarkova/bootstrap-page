@@ -33,6 +33,7 @@
     display: none;
 }
 
+
 .item_image_1 {
     background-image: url(about-us1.jpg);
 
@@ -539,13 +540,18 @@ label.form-label {
  }
 
 
- @media (max-width: 500px){
+@media (max-height: 500px) {
 
- }
+    .home-text{  
+   
+       max-width: 300px;
+       top: 90px;
+       max-height: 60vh;
 
- .home-text{  
-
-    max-width: 300px;
-    top:150px;
-    left: 10%;
+   }
+   }
+@media (max-width: 900px) and (min-width: 500px) {
+    #whatwedo{
+        margin-top: 100px!important;
+    }
 }
