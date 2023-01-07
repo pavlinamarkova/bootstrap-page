@@ -97,11 +97,11 @@
 
 .home-text{  
     background-color: black;
-    opacity: 0.8;
-    max-width: 300px;
+    opacity: 0.7;
+    max-width: 260px;
     position: absolute;
-    max-height: 60vh;
-    top:350px;
+    max-height: 250px!important;
+    top:360px;
     left: 10%;
     right:10%;
 }
@@ -121,17 +121,7 @@
     color:white
   }
 
-.cookie-consent-modal{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0,0,0,0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    display: none;
-    align-items: flex-end;
-}
+
 .cookie-consent-modal.active{
     display: flex;
 }
@@ -141,23 +131,37 @@
     border-radius: 10px 10px 0 0;
 }
 
-.btns{
+.btn{
     display: flex;
     justify-content: flex-end;
+    
     margin-top: 2em;
+}
+.btn a {
+    color:white;
+    text-decoration: none;
+}
+.btn-cookies {
+    background-color: #4a4234!important;
+    color: white;
+    margin-top: 50px;
+    font-size: 0.8rem!important;
+    border: 1px solid white!important;
 }
 .btn{
     border: none;
     outline: none;
     padding: .8em 1.5em;
     width: 100px;
+    font-size: 1rem;
     margin-right: 1em;
     border-radius: 3px;
     text-transform: uppercase;
 }
-.btn.accept{
-    background-color: rgb(0, 185, 124);
-    color: #fff;
+.btn-accept{
+    background-color: green!important;
+    color: #fff!important;
+    border: 1px solid white;
 }
 
 .about-us{
@@ -546,9 +550,16 @@ label.form-label {
  .home-text{  
 
     max-width: 300px;
-    top: 200px;
+    top: 220px;
 
 }
+}
+@media (max-height: 500px) {
+    .home-text{  
+
+        margin-top: 40px;
+    
+    }
 }
 
 @media (max-height: 500px) {
@@ -565,7 +576,7 @@ label.form-label {
 
     .home-text{  
  
-       margin: 0 auto;
+       margin: 10px auto;
        max-width: 600px!important;
    
    }
