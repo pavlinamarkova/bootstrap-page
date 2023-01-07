@@ -160,9 +160,7 @@
     color: #fff;
 }
 
-.about-us-text {
-    text-align: justify;
-    padding: 5px;
+.about-us{
     line-height: 1.7rem;
 }
 
@@ -177,12 +175,18 @@
 }
 
 .carousel {
-    background-color: rgba(0,0,0);  
+    background-color: rgba(0,0,0, 0.8);  
     color: #fff;
     text-align: center;
-    padding-bottom: 10px;
-}
+    margin-bottom: 10px;
 
+}
+.img-carousel {
+    max-height: 70vh;
+}
+.carousel-indicators {
+    margin-bottom: 7px;
+}
 
 #whatwedo {
 
