@@ -4,7 +4,8 @@
 
 
 .mainNav {
-    background-color: rgba(0, 0, 0,1 );
+
+    opacity: 0.9;
     padding-right: 20px;
     color: white;
 
@@ -16,18 +17,32 @@
 
 }
 .custom-toggler, .button-menu {
-    border:green;
-}
-.custom-toggler, .navbar-toggler-icon {
-    
-    border-radius: 20%;
-    margin:0 auto;
-    color: brown;
+    border-color: transparent!important;
     width:50px;
     height: 50px;
-    
+    box-shadow: none!important;
 }
 
+
+.navbar-toggle {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border-color: transparent!important;
+    border-radius: 0.25rem;
+    box-shadow: none!important;
+}
+.nav-pills .nav-link.active {
+ 
+    background-color:  black!important;
+    color: brown!important;
+
+}
+
+.nav-link:hover {
+    color: brown!important;
+}
 .item-img{
     max-width: 100%;
     opacity: 0;
@@ -73,16 +88,12 @@
  }
 
 
-.nav-link {
-    color:grey;
-}
+
 .nav-link {
     color: white!important;
   }
 
-.nav-link:hover{
-    border-bottom: 1px solid brown;
-}
+
 
 
 
@@ -142,16 +153,19 @@
     text-decoration: none;
 }
 .btn-cookies {
-    background-color: #4a4234!important;
+    background-color: green!important;
     color: white;
-    margin-top: 50px;
+    width: 100px!important;
     font-size: 0.8rem!important;
     border: 1px solid white!important;
 }
+.btn-cookies:hover{
+    background-color:blueviolet!important ;
+}
+
 .btn{
     border: none;
     outline: none;
-    padding: .8em 1.5em;
     width: 100px;
     font-size: 1rem;
     margin-right: 1em;
