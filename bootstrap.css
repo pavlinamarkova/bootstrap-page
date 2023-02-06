@@ -578,8 +578,9 @@ padding-bottom:10px;
 }
 @media (max-height: 500px) {
     .home-text{  
+max-height:240px!important;
 
-        margin-top: 40px;
+        margin-top: 30px;
     
     }
 .home-text{  
